@@ -4,7 +4,7 @@ var bodyParser = require("body-parser");
 var secret = require('dotenv');
 var app = express();
 
-const staticPath = express.static(__dirname);
+const staticPath = express.static(__dirname + "/views");
 app.use( staticPath );
 
 var payload = bodyParser.urlencoded({extended: false});
