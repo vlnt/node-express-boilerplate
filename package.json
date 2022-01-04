@@ -11,8 +11,7 @@
 	"main": "server.js",
 	"scripts": {
 		"dev": "nodemon --delay 3 server.js",
-		"start": "node server.js",
-		"build": "npm install"
+		"start": "node server.js"
 	},
 	"devDependencies": {
 		"nodemon": "^2.0.15"
